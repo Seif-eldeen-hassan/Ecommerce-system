@@ -11,7 +11,7 @@ public class MainProgram {
         // Products for testing
         Product TV = new Product("TV", 5999, 3);
         ExpiringProduct Cheese = (new ExpiringProduct("Cheese", 29.99, 10, true));
-        ExpiringProduct Chips = (new ExpiringProduct("Chips", 5, 7, false));
+        ExpiringProduct NetflixSubscription = (new ExpiringProduct("Netflix Subscription", 5, 7, false));
         ShippableProduct Washing_Machine = (new ShippableProduct("Washing Machine", 3499, 2, 9000));
         ShipExpirableProduct Frozen_Pizza =(new ShipExpirableProduct("Frozen Pizza", 79, 5, 70, false));
 
